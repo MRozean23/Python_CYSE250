@@ -38,8 +38,7 @@ def passManager(webName, secret):
         webSite = str(v)
     for k in myDict.keys():
         passWord = str(k)
-    complete = webSite +" - "+ passWord
-    return print(complete)
+    return print("Your generated password for " + webSite +" is: "+ passWord + "\n")
 
 if __name__ == "__main__":
     main()
